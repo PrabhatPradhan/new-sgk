@@ -24,7 +24,7 @@ export default function Page() {
               digital artwork, and design stunning graphics with ease. Our
               hands-on training covers everything from basic photo corrections
               and retouching to advanced compositing, layers, masks, and
-              typography. Whether you're aiming to become a professional graphic
+              typography. Whether you re aiming to become a professional graphic
               designer,  
             </p>
           </div>

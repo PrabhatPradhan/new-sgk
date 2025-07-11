@@ -3,6 +3,7 @@
 import React from 'react'
  
 import Navbar from '../Componentes/Navbar/Navbar'
+import Image from 'next/image';
 
  
  
@@ -63,7 +64,7 @@ export default function pajes() {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-12 ">
           {albums.map((album, index) => (
             <div key={index} className="bg-gray-100 rounded shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 ease-in-out">
-              <img
+              <Image
                 src={album.image}
                 alt={album.title}
                 width={400}
