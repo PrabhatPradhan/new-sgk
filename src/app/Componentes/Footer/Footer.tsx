@@ -1,40 +1,7 @@
 "use client";
 
  
-import Link from 'next/link';
-import { Eye } from 'lucide-react';
-import Image from 'next/image';
-
-const albums = [
-  {
-    slug: 'wedding-album-design',
-    title: 'Wedding Album Design',
-    author: 'Telugu Photoshop guruji',
-    views: 14900,
-    image: '/Images/4.jpg',
-  },
-  {
-    slug: 'album-designing-engagement',
-    title: 'Album Designing_Engagement',
-    author: 'Harish Raj',
-    views: 733,
-    image: '/Images/4.jpg',
-  },
-  {
-    slug: 'wedding-album-template',
-    title: 'Wedding Album Template',
-    author: 'Rahul Telbhare',
-    views: 281,
-    image: '/Images/5.jpg',
-  },
-  {
-    slug: 'album-designs-dhanu',
-    title: 'Album Designs',
-    author: 'Dhanu Gunawardhana',
-    views: 13500,
-    image: '/Images/6.jpg',
-  },
-];
+ 
 
 export default function Biography() {
   return (
